@@ -45,6 +45,8 @@ cd ..
 cd ~
 # Clear the screen
 clear
+# Create a new folder/directory in the current directory
+mkdir <my_directory>
 # Open the current directory in VS Code
 code .
 ```
@@ -59,7 +61,22 @@ Homebrew will allow you to install all kinds of tools that your Mac should have 
 
 ```zsh
 brew install fortune
+brew install gh
 ```
+
+If you want to find out more about a package before you install it, you can use `brew info`, for example:
+
+```sh
+brew info nmap
+```
+
+To list all of the packages that you have installed with `brew`, type:
+
+```sh
+brew list
+```
+
+For more help using Homebrew, you can [read the documentation](https://docs.brew.sh/) online, or just type `brew help` in your terminal.
 
 # 2. Get Python & `conda` for scientific computing
 
