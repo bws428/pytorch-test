@@ -229,7 +229,7 @@ If you get this, then PyTorch is installed and working correctly.
 
 # 4. Install Fooocus
 
-In this last section, we are going to clone the [Fooocus repository](https://github.com/lllyasviel/Fooocus) from GitHub.com, and then proceed to follow the installation instructions for Mac, as described in the Fooocus README file:
+In this section, we are going to clone the [Fooocus repository](https://github.com/lllyasviel/Fooocus) from GitHub.com, and then proceed to follow the installation instructions for Mac, as described in the Fooocus README file:
 
 https://github.com/lllyasviel/Fooocus#mac
 
