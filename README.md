@@ -164,7 +164,7 @@ cd ~/Projects/pytorch
 2. Next, we'll create and activate a `conda` environment for installing PyTorch:
 
 ```sh
-conda create -n pytorch python=3.12
+conda create -n pytorch
 conda activate pytorch
 ```
 
@@ -226,3 +226,7 @@ tensor([1.], device='mps:0')
 ```
 
 If you get this, then PyTorch is installed and working correctly.
+
+# 4. Install Fooocus
+
+https://github.com/lllyasviel/Fooocus#mac
