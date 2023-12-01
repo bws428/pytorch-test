@@ -229,4 +229,58 @@ If you get this, then PyTorch is installed and working correctly.
 
 # 4. Install Fooocus
 
+In this last section, we are going to clone the [Fooocus repository](https://github.com/lllyasviel/Fooocus) from GitHub.com, and then proceed to follow the installation instructions for Mac, as described in the Fooocus README file:
+
 https://github.com/lllyasviel/Fooocus#mac
+
+We are going to create and activate a NEW `conda` enviroment, install PyTorch again into the new environment (just like in Step 3), and then try to run Fooocus.
+
+### Clone the Fooocus repository
+
+Let's start by navigating to our `Projects` directory (or whatever you created in Step 3). We'll store our new Fooocus project there.
+
+```sh
+cd ~/Projects
+```
+
+Next, we can clone the Fooocus repo (use only ONE of the following two commands):
+
+```sh
+git clone https://github.com/lllyasviel/Fooocus.git
+```
+
+Alternatively, if you happened to earn extra credit in Step 1 by installing and configuring the [GitHub CLI](https://cli.github.com/) (`gh`), you could clone the repo with the following command (either one of these should work).
+
+```sh
+gh repo clone lllyasviel/Fooocus
+```
+
+Finally, after we've cloned the Fooocus repo to our Mac, we'll change into the project's directory to prepare for the next steps:
+
+```sh
+cd Fooocus
+```
+
+### Create a new Conda Environment
+
+Now we'll create a new `conda` environment called `fooocus` using the included `environment.yaml` file, which will provide some baseline configuration for this project.
+
+```sh
+conda env create -f environment.yaml
+```
+
+Activate the environment:
+
+```sh
+conda activate fooocus
+```
+
+We should see the terminal command prompt change to `(fooocus)`, indicating that our new environment has been activated.
+
+```sh
+(fooocus) ➜  Fooocus
+```
+
+### Install PyTorch (again) in the Fooocus Environment
+
+Do we really need to do this? I don't think the .enviroment.yaml does it...
