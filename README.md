@@ -1,6 +1,8 @@
 ## Machine Learning Development Setup for MacOS (Apple Silicon)
 
-The following tutorial is designed to take you from "zero to hero" and get your Apple Silicon Mac setup for Machine Learning experimentation and development. The goal is to be the instructions I wish I had read when I first got started. The end result of this tutorial is the installation of the open-source [Fooocus](https://github.com/lllyasviel/Fooocus) text-to-image generator. It is similar to [Stable Diffusion](https://stablediffusionweb.com/) and [Midjourney](https://www.midjourney.com/) in this respect.
+The following tutorial is designed to take you from "zero to hero" and get your Apple Silicon Mac setup for Machine Learning experimentation and development. The goal is to provide the instructions I wish I had had when I first got started with software development on the Mac.
+
+The end result of this particular tutorial is the installation of the open-source [Fooocus](https://github.com/lllyasviel/Fooocus) text-to-image generator (similar to [Stable Diffusion](https://stablediffusionweb.com/) and [Midjourney](https://www.midjourney.com/)), but feel free to stop or diverge at any point to get the specific setup you're looking for.
 
 # 1. Set up a Coding Environment
 
@@ -9,6 +11,8 @@ The following software will get you up and running for general software developm
 ## Install VS Code
 
 Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages and runtimes (such as Python, PHP, Go, Rust, etc.).
+
+https://code.visualstudio.com/
 
 Begin your journey with VS Code with these [introductory videos](https://code.visualstudio.com/docs/introvideos/overview).
 
