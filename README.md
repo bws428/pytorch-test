@@ -281,7 +281,7 @@ We should see the terminal command prompt change to `(fooocus)`, indicating that
 (fooocus) ➜  Fooocus
 ```
 
-### Install PyTorch (again) in the Fooocus Environment
+### Install PyTorch (again) in the `fooocus` Environment
 
 Didn't we just install PyTorch? Yes, but only in the `pytorch` environment. This new `fooocus` environment doesn't know anything about what's going on inside of other environments. This property is what makes environments so good at keeping dependencies for one project from affecting the dependencies of another project -- or worse, your Mac system programs.
 
