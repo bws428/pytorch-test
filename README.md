@@ -32,7 +32,9 @@ https://ohmyz.sh/
 
 ### Get comfortable with the terminal
 
-[Here's a good cheatsheet](https://www.lifewire.com/mac-terminal-commands-4774997) to help remembering some of the common terminal commands on Mac and Linux. (Try NOT to use the `sudo` command unless it's specifically called out for some reason.) Here are a few to get you going:
+[Here's a good cheatsheet](https://www.lifewire.com/mac-terminal-commands-4774997) to help remembering some of the common terminal commands on Mac and Linux. (NOTE: Try NOT to use the `sudo` command unless it's specifically called out for some reason.)
+
+Here are a few commands to get you going:
 
 ```sh
 # Print the working (current) directory path
