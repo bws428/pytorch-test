@@ -4,7 +4,7 @@ The following tutorial is designed to take you from "zero to hero" and get your 
 
 The end result of this particular tutorial is the installation of the open-source [Fooocus](https://github.com/lllyasviel/Fooocus) text-to-image generator (similar to [Stable Diffusion](https://stablediffusionweb.com/) and [Midjourney](https://www.midjourney.com/)), but feel free to stop or diverge at any point to get the specific setup you're looking for.
 
-# 1. Set up a Coding Environment
+# 1. Set up a coding environment
 
 The following software will get you up and running for general software development on the Mac. Once you get the hang of them, you'll find these programs useful in day-to-day Mac operations, even when you're not writing code.
 
@@ -30,7 +30,7 @@ Oh My Zsh is a delightful, open source, community-driven framework for managing 
 
 https://ohmyz.sh/
 
-### Get comfortable with the terminal
+## Get comfortable with iTerm2 and basic shell commands
 
 [Here's a good cheatsheet](https://www.lifewire.com/mac-terminal-commands-4774997) to help remembering some of the common terminal commands on Mac and Linux. (NOTE: Try NOT to use the `sudo` command unless it's specifically called out for some reason.)
 
@@ -84,11 +84,11 @@ brew list
 
 For more help using Homebrew, you can [read the documentation](https://docs.brew.sh/) online, or just type `brew help` in your terminal.
 
-# 2. Get Python & `conda` for scientific computing
+# 2. Get Python & Conda for scientific computing
 
 ## Install Miniconda3
 
-[Miniconda](https://docs.conda.io/projects/miniconda/en/latest/) is a free minimal installer for `conda`, the most popular package manager for scientific computing. It is a small bootstrap version of [Anaconda](https://www.anaconda.com/) that includes only `conda`, Python, the packages they both depend on, and a small number of other useful packages (like `pip`, `zlib`, and a few others). If you need more packages, use the `conda install` command to install from thousands of packages available by default in Anaconda’s public repo.
+[Miniconda](https://docs.conda.io/projects/miniconda/en/latest/) is a free minimal installer for [Conda](https://docs.conda.io/en/latest/), the most popular package manager for scientific computing. It is a small bootstrap version of the more full-featured (maybe bloated?) [Anaconda](https://www.anaconda.com/) platform that includes only `conda`, Python, the packages they both depend on, and a small number of other useful packages (like `pip`, `zlib`, and a few others). If you need more packages, use the `conda install` command to install from thousands of packages available by default in Anaconda’s public repo.
 
 In iTerm2, run the following commands, one after the other:
 
