@@ -1,4 +1,4 @@
-## Machine Learning Development Setup for MacOS (Apple Silicon)
+# Machine Learning Development Setup for MacOS (Apple Silicon)
 
 The following tutorial is designed to take you from "zero to hero" and get your Apple Silicon Mac setup for Machine Learning experimentation and development. The goal is to provide the instructions I wish I had had when I first got started with software development on the Mac.
 
