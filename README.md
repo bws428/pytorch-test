@@ -61,7 +61,7 @@ brew install fortune
 
 ## Install Miniconda3
 
-[Miniconda](https://docs.conda.io/projects/miniconda/en/latest/) is a free minimal installer for `conda`, the most popular package manager for scientific computing. It is a small bootstrap version of Anaconda that includes only `conda`, Python, the packages they both depend on, and a small number of other useful packages (like `pip`, `zlib`, and a few others). If you need more packages, use the `conda install` command to install from thousands of packages available by default in Anaconda’s public repo.
+[Miniconda](https://docs.conda.io/projects/miniconda/en/latest/) is a free minimal installer for `conda`, the most popular package manager for scientific computing. It is a small bootstrap version of [Anaconda](https://www.anaconda.com/) that includes only `conda`, Python, the packages they both depend on, and a small number of other useful packages (like `pip`, `zlib`, and a few others). If you need more packages, use the `conda install` command to install from thousands of packages available by default in Anaconda’s public repo.
 
 In iTerm2, run the following commands, one after the other:
 
