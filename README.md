@@ -310,11 +310,11 @@ Finally, we're ready to fire it all up!
 Launch Fooocus by running:
 
 ```sh
-python entry_with_update.py
+python3 entry_with_update.py
 ```
 
-(Some Mac M2 users may need `python entry_with_update.py --enable-smart-memory` to speed up model loading/unloading.) The first time you run Fooocus, it will automatically download the Stable Diffusion SDXL models and will take a significant time, depending on your internet connection.
+(Some Mac M2 users may need `python3 entry_with_update.py --enable-smart-memory` to speed up model loading/unloading.) The first time you run Fooocus, it will automatically download the Stable Diffusion SDXL models and will take a significant time, depending on your internet connection.
 
-Use `python entry_with_update.py --preset anime` or `python entry_with_update.py --preset realistic` for Fooocus Anime/Realistic Edition.
+Use `python3 entry_with_update.py --preset anime` or `python3 entry_with_update.py --preset realistic` for Fooocus Anime/Realistic Edition.
 
 Discuss any issues or questions you have on the [Fooocus Discussion](https://github.com/lllyasviel/Fooocus/discussions) page.
