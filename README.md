@@ -88,7 +88,7 @@ For more help using Homebrew, you can [read the documentation](https://docs.brew
 
 ## Install Miniconda3
 
-[Miniconda](https://docs.conda.io/projects/miniconda/en/latest/) is a free minimal installer for [Conda](https://docs.conda.io/en/latest/), the most popular package manager for scientific computing. It is a small bootstrap version of the more full-featured (maybe bloated?) [Anaconda](https://www.anaconda.com/) platform that includes only `conda`, Python, the packages they both depend on, and a small number of other useful packages (like `pip`, `zlib`, and a few others). If you need more packages, use the `conda install` command to install from thousands of packages available by default in Anaconda’s public repo.
+[Miniconda](https://docs.conda.io/projects/miniconda/en/latest/) is a free minimal installer for [Conda](https://docs.conda.io/en/latest/), the most popular package manager for scientific computing. It is a small bootstrap version of the more fully-featured (maybe bloated?) [Anaconda](https://www.anaconda.com/) platform that includes only `conda`, Python, the packages they both depend on, and a small number of other useful packages (like `pip`, `zlib`, and a few others). If you need more packages, use the `conda install` command to install from thousands of packages available by default in Anaconda’s public repo.
 
 In iTerm2, run the following commands, one after the other:
 
@@ -150,7 +150,7 @@ python3 -V
 
 # 3. Install PyTorch for Machine Learning
 
-[PyTorch](https://pytorch.org/) is an open-source machine learning framework use for training deep neural networks, specifically deep learning models used in applications like image recognition and language processing. Written in Python, it's relatively easy for most machine learning developers to learn and use.
+[PyTorch](https://pytorch.org/) is an open-source machine learning framework used for training deep neural networks, specifically deep learning models used in applications like image recognition and language processing. Written in Python, it's relatively easy for most machine learning developers to learn and use.
 
 We'll use `conda` to install PyTorch and all of its required dependencies.
 
@@ -283,4 +283,22 @@ We should see the terminal command prompt change to `(fooocus)`, indicating that
 
 ### Install PyTorch (again) in the Fooocus Environment
 
-Do we really need to do this? I don't think the .enviroment.yaml does it...
+Didn't we just install PyTorch? Yes, but only in the `pytorch` environment. This new `fooocus` environment doesn't know anything about what's going on inside of other environments. This property is what makes environments so good at keeping dependencies for one project from affecting the dependencies of another project -- or worse, your Mac system programs.
+
+So, with the `fooocus` environment activated, we'll install PyTorch just as before:
+
+```sh
+conda install pytorch-nightly::pytorch torchvision torchaudio -c pytorch-nightly
+```
+
+You should be able to use the `torch-test.py` file you created earlier to verify that everything is working. Just make sure you run it while the `fooocus` environment is activated.
+
+### Install Fooocus Requirements
+
+Now we'll install all the other software packages required by Fooocus, using yet another package manager (I know, I know), Python's `pip`.
+
+If you want to take a look at which packages Fooocus wants to install, you can simply read the `requirements_versions.txt` file before running this command:
+
+```sh
+pip install -r requirements_versions.txt
+```
