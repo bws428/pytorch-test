@@ -37,7 +37,7 @@ https://ohmyz.sh/
 Here are a few commands to get you going:
 
 ```sh
-# Print the working (current) directory path
+# Print the full path to the working (current) directory
 pwd
 # List all the files and folders in the current directory
 ls
@@ -59,7 +59,7 @@ code .
 
 ## Install Homebrew
 
-Homebrew is the missing package manager for MacOS. It's like `apt-get` on Linux, but better.
+Homebrew is the missing package manager for MacOS. It's like `apt` or `dkpg` or `yum` on Linux, but made for Mac.
 
 https://brew.sh/
 
