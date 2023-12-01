@@ -1,4 +1,4 @@
-## Machine Learning Software Setup for MacOS Apple Silicon
+## Machine Learning Development Setup for MacOS (Apple Silicon)
 
 The following tutorial is designed to take you from "zero to hero" and get your Apple Silicon Mac setup for Machine Learning experimentation and development. The goal is to be the instructions I wish I had read when I first got started. The end result of this tutorial is the installation of the open-source [Fooocus](https://github.com/lllyasviel/Fooocus) text-to-image generator. It is similar to [Stable Diffusion](https://stablediffusionweb.com/) and [Midjourney](https://www.midjourney.com/) in this respect.
 
